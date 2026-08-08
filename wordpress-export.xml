@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+    <title>Planeta Bizarro</title>
+    <link>https://example.com</link>
+    <description>Blog de curiosidades bizarras sobre corpo humano e comidas estranhas.</description>
+    <language>pt-BR</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://example.com</wp:base_site_url>
+    <wp:base_blog_url>https://example.com</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login><![CDATA[admin]]></wp:author_login>
+        <wp:author_email><![CDATA[admin@example.com]]></wp:author_email>
+        <wp:author_display_name><![CDATA[Admin]]></wp:author_display_name>
+        <wp:author_first_name><![CDATA[]]></wp:author_first_name>
+        <wp:author_last_name><![CDATA[]]></wp:author_last_name>
+    </wp:author>
+
+    <wp:category>
+        <wp:term_id>1</wp:term_id>
+        <wp:category_nicename><![CDATA[corpo-humano]]></wp:category_nicename>
+        <wp:category_parent><![CDATA[]]></wp:category_parent>
+        <wp:cat_name><![CDATA[Corpo Humano]]></wp:cat_name>
+        <wp:category_description><![CDATA[Curiosidades sobre o corpo humano.]]></wp:category_description>
+    </wp:category>
+    <wp:category>
+        <wp:term_id>2</wp:term_id>
+        <wp:category_nicename><![CDATA[comidas-bizarras]]></wp:category_nicename>
+        <wp:category_parent><![CDATA[]]></wp:category_parent>
+        <wp:cat_name><![CDATA[Comidas Bizarras]]></wp:cat_name>
+        <wp:category_description><![CDATA[Pratos estranhos e curiosos do mundo.]]></wp:category_description>
+    </wp:category>
+
+    <item>
+        <title>Artrópodes nos olhos</title>
+        <link>https://example.com/artropodes-nos-olhos</link>
+        <pubDate>Sat, 08 Aug 2026 12:00:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://example.com/?p=101</guid>
+        <description><![CDATA[Existe uma grande chance de você ter artrópodes microscópicos vivendo ao redor dos seus cílios.]]></description>
+        <content:encoded><![CDATA[<p>Existe uma grande chance de você ter artrópodes microscópicos vivendo ao redor dos seus cílios e a quantidade deles aumenta conforme a idade, embora sejam inofensivos.</p><p><strong>Nível:</strong> Baixo</p><p>Detalhe: Eles ficam em áreas delicadas do olho e, na maioria das vezes, não causam danos. A presença deles é tão comum que quase passa despercebida.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA[Artrópodes microscópicos podem viver ao redor dos seus cílios.]]></excerpt:encoded>
+        <wp:post_id>101</wp:post_id>
+        <wp:post_date>2026-08-08 12:00:00</wp:post_date>
+        <wp:post_date_gmt>2026-08-08 12:00:00</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>artropodes-nos-olhos</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="corpo-humano"><![CDATA[Corpo Humano]]></category>
+    </item>
+    <item>
+        <title>Cera de ouvido protetora</title>
+        <link>https://example.com/cera-de-ouvido-protetora</link>
+        <pubDate>Sat, 08 Aug 2026 12:10:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://example.com/?p=102</guid>
+        <description><![CDATA[A cera protege o ouvido contra poeira e tem propriedades antibacterianas.]]></description>
+        <content:encoded><![CDATA[<p>A cera é produzida naturalmente para proteger o sistema auditivo contra poeira e possui propriedades antibacterianas.</p><p><strong>Nível:</strong> Médio</p><p>Detalhe: É uma barreira natural que ajuda a reduzir a entrada de sujeira e micro-organismos. Por isso, remover tudo demais pode deixar o ouvido vulnerável.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA[A cera protege o ouvido e possui propriedades antibacterianas.]]></excerpt:encoded>
+        <wp:post_id>102</wp:post_id>
+        <wp:post_date>2026-08-08 12:10:00</wp:post_date>
+        <wp:post_date_gmt>2026-08-08 12:10:00</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>cera-de-ouvido-protetora</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="corpo-humano"><![CDATA[Corpo Humano]]></category>
+    </item>
+    <item>
+        <title>Superlotação de bactérias</title>
+        <link>https://example.com/superlotacao-de-bacterias</link>
+        <pubDate>Sat, 08 Aug 2026 12:20:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://example.com/?p=103</guid>
+        <description><![CDATA>A pele humana abriga milhões de bactérias e a boca centenas de espécies.]]></description>
+        <content:encoded><![CDATA[<p>Cada centímetro quadrado da pele humana possui, em média, 32 milhões de bactérias e a boca abriga centenas de espécies diferentes.</p><p><strong>Nível:</strong> Alto</p><p>Detalhe: A nossa microbiota faz parte do sistema imunológico e ajuda a manter o corpo em equilíbrio, embora pareça assustador à primeira vista.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA>A pele humana abriga milhões de bactérias.]]></excerpt:encoded>
+        <wp:post_id>103</wp:post_id>
+        <wp:post_date>2026-08-08 12:20:00</wp:post_date>
+        <wp:post_date_gmt>2026-08-08 12:20:00</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>superlotacao-de-bacterias</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="corpo-humano"><![CDATA[Corpo Humano]]></category>
+    </item>
+    <item>
+        <title>A origem do chulé</title>
+        <link>https://example.com/a-origem-do-chule</link>
+        <pubDate>Sat, 08 Aug 2026 12:30:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://example.com/?p=104</guid>
+        <description><![CDATA>O mau cheiro do chulé vem das bactérias, não do suor.]]></description>
+        <content:encoded><![CDATA[<p>O mau cheiro não vem do suor em si, mas das bactérias que se alimentam do líquido e liberam gases fedorentos.</p><p><strong>Nível:</strong> Alto</p><p>Detalhe: O cheiro surge quando o suor entra em contato com a microbiota da pele, especialmente em áreas mais quentes e abafadas.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA>O mau cheiro do chulé vem de bactérias.]]></excerpt:encoded>
+        <wp:post_id>104</wp:post_id>
+        <wp:post_date>2026-08-08 12:30:00</wp:post_date>
+        <wp:post_date_gmt>2026-08-08 12:30:00</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>a-origem-do-chule</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="corpo-humano"><![CDATA[Corpo Humano]]></category>
+    </item>
+    <item>
+        <title>Troca de pele constante</title>
+        <link>https://example.com/troca-de-pele-constante</link>
+        <pubDate>Sat, 08 Aug 2026 12:40:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://example.com/?p=105</guid>
+        <description><![CDATA>O corpo humano perde centenas de milhares de partículas de pele por hora.]]></description>
+        <content:encoded><![CDATA[<p>O corpo humano perde centenas de milhares de partículas de pele por hora e isso se acumula ao longo da vida.</p><p><strong>Nível:</strong> Médio</p><p>Detalhe: Essa renovação constante é um processo natural de proteção e manutenção da pele, ainda que pareça um pouco grotesco.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA>O corpo humano perde milhares de partículas de pele por hora.]]></excerpt:encoded>
+        <wp:post_id>105</wp:post_id>
+        <wp:post_date>2026-08-08 12:40:00</wp:post_date>
+        <wp:post_date_gmt>2026-08-08 12:40:00</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>troca-de-pele-constante</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="corpo-humano"><![CDATA[Corpo Humano]]></category>
+    </item>
+    <item>
+        <title>Ereção pós-morte</title>
+        <link>https://example.com/erecao-pos-morte</link>
+        <pubDate>Sat, 08 Aug 2026 12:50:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://example.com/?p=106</guid>
+        <description><![CDATA>O fenômeno conhecido como “anjo da luxúria” pode acontecer após a morte.]]></description>
+        <content:encoded><![CDATA[<p>O fenômeno conhecido como “anjo da luxúria” pode acontecer após a morte quando a gravidade altera o fluxo sanguíneo.</p><p><strong>Nível:</strong> Muito Alto</p><p>Detalhe: Esse efeito é raro, mas entra na lista das curiosidades mais estranhas porque faz o corpo parecer agir contra a própria morte.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA>Um fenômeno raro que pode acontecer após a morte.]]></excerpt:encoded>
+        <wp:post_id>106</wp:post_id>
+        <wp:post_date>2026-08-08 12:50:00</wp:post_date>
+        <wp:post_date_gmt>2026-08-08 12:50:00</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>erecao-pos-morte</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="corpo-humano"><![CDATA[Corpo Humano]]></category>
+    </item>
+    <item>
+        <title>O queijo vivo (Casu marzu)</title>
+        <link>https://example.com/o-queijo-vivo-casu-marzu</link>
+        <pubDate>Sat, 08 Aug 2026 13:00:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://example.com/?p=201</guid>
+        <description><![CDATA>Queijo italiano fermentado por larvas vivas.]]></description>
+        <content:encoded><![CDATA[<p>Feito com leite de ovelha na Itália, leva larvas vivas de moscas que fermentam o alimento até quase a decomposição.</p><p><strong>Nível:</strong> Muito Alto</p><p>Detalhe: Esse prato precisa ser consumido enquanto as larvas ainda se movem, o que o torna um dos alimentos mais controversos do mundo.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA>Queijo italiano fermentado por larvas vivas.]]></excerpt:encoded>
+        <wp:post_id>201</wp:post_id>
+        <wp:post_date>2026-08-08 13:00:00</wp:post_date>
+        <wp:post_date_gmt>2026-08-08 13:00:00</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>o-queijo-vivo-casu-marzu</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="comidas-bizarras"><![CDATA[Comidas Bizarras]]></category>
+    </item>
+    <item>
+        <title>Sapo energético</title>
+        <link>https://example.com/sapo-energetico</link>
+        <pubDate>Sat, 08 Aug 2026 13:10:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://example.com/?p=202</guid>
+        <description><![CDATA>Receita peruana com sapo sem olhos e sem ossos.]]></description>
+        <content:encoded><![CDATA[<p>Uma receita peruana feita no liquidificador com caldo de feijão branco, babosa, mel e um sapo sem ossos e sem olhos.</p><p><strong>Nível:</strong> Alto</p><p>Detalhe: Essa iguaria foi criada com a intenção de despertar energia, mas a imagem de um sapo no liquidificador já basta para causar arrepios.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA>Receita peruana com sapo sem olhos e sem ossos.]]></excerpt:encoded>
+        <wp:post_id>202</wp:post_id>
+        <wp:post_date>2026-08-08 13:10:00</wp:post_date>
+        <wp:post_date_gmt>2026-08-08 13:10:00</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>sapo-energetico</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="comidas-bizarras"><![CDATA[Comidas Bizarras]]></category>
+    </item>
+    <item>
+        <title>Peixe decomposto do Alasca</title>
+        <link>https://example.com/peixe-decomposto-do-alasca</link>
+        <pubDate>Sat, 08 Aug 2026 13:20:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://example.com/?p=203</guid>
+        <description><![CDATA>Tradição de enterrar a cabeça do peixe até amaciar.]]></description>
+        <content:encoded><![CDATA[<p>Alguns nativos enterram a cabeça do peixe dentro de um saco plástico até amaciar para consumi-la crua.</p><p><strong>Nível:</strong> Muito Alto</p><p>Detalhe: Essa preparação, feita como parte de uma tradição alimentar, é potencialmente perigosa e exige extremo cuidado.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA>Tradição de enterrar a cabeça do peixe até amaciar.]]></excerpt:encoded>
+        <wp:post_id>203</wp:post_id>
+        <wp:post_date>2026-08-08 13:20:00</wp:post_date>
+        <wp:post_date_gmt>2026-08-08 13:20:00</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>peixe-decomposto-do-alasca</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="comidas-bizarras"><![CDATA[Comidas Bizarras]]></category>
+    </item>
+    <item>
+        <title>O peixe baiacu alucinógeno</title>
+        <link>https://example.com/o-peixe-baiacu-alucinogenico</link>
+        <pubDate>Sat, 08 Aug 2026 13:30:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://example.com/?p=204</guid>
+        <description><![CDATA>O baiacu é servido com dose mínima de toxina.]]></description>
+        <content:encoded><![CDATA[<p>No Japão, o baiacu é servido após o cozinheiro retirar a bolsa de tetrodotoxina e espalhar uma pequena quantidade do veneno.</p><p><strong>Nível:</strong> Muito Alto</p><p>Detalhe: A experiência é tão arriscada que é tratada como uma mistura de gastronomia e perigo extremo.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA>O baiacu é servido com dose mínima de toxina.]]></excerpt:encoded>
+        <wp:post_id>204</wp:post_id>
+        <wp:post_date>2026-08-08 13:30:00</wp:post_date>
+        <wp:post_date_gmt>2026-08-08 13:30:00</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>o-peixe-baiacu-alucinogenico</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="comidas-bizarras"><![CDATA[Comidas Bizarras]]></category>
+    </item>
+    <item>
+        <title>O cachorro afrodisíaco</title>
+        <link>https://example.com/o-cachorro-afrodisiaco</link>
+        <pubDate>Sat, 08 Aug 2026 13:40:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://example.com/?p=205</guid>
+        <description><![CDATA>Sopa de cachorro consumida como afrodisíaco.]]></description>
+        <content:encoded><![CDATA[<p>Na Coreia, consome-se sopa de cachorro com legumes sob a crença de que o prato aumenta a potência sexual.</p><p><strong>Nível:</strong> Alto</p><p>Detalhe: A tradição faz parte de uma prática cultural antiga, embora seja vista com estranhamento por boa parte do mundo.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA>Sopa de cachorro consumida como afrodisíaco.]]></excerpt:encoded>
+        <wp:post_id>205</wp:post_id>
+        <wp:post_date>2026-08-08 13:40:00</wp:post_date>
+        <wp:post_date_gmt>2026-08-08 13:40:00</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>o-cachorro-afrodisiaco</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="comidas-bizarras"><![CDATA[Comidas Bizarras]]></category>
+    </item>
+    <item>
+        <title>Vinho de cobra</title>
+        <link>https://example.com/vinho-de-cobra</link>
+        <pubDate>Sat, 08 Aug 2026 13:50:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://example.com/?p=206</guid>
+        <description><![CDATA>Vinho vietnamita com cobra viva dentro da garrafa.]]></description>
+        <content:encoded><![CDATA[<p>Fabricado no Vietnã com aguardente de arroz e uma cobra colocada ainda viva dentro da garrafa.</p><p><strong>Nível:</strong> Muito Alto</p><p>Detalhe: A ideia é que o álcool dilua o veneno da cobra, mas o resultado é um dos drinks mais extremos da gastronomia.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA>Vinho vietnamita com cobra viva.]]></excerpt:encoded>
+        <wp:post_id>206</wp:post_id>
+        <wp:post_date>2026-08-08 13:50:00</wp:post_date>
+        <wp:post_date_gmt>2026-08-08 13:50:00</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>vinho-de-cobra</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="comidas-bizarras"><![CDATA[Comidas Bizarras]]></category>
+    </item>
+</channel>
+</rss>

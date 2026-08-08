@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planeta Bizarro | Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@400;500;700&family=Nosifer&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="#" class="brand">Planeta Bizarro</a>
+            <div class="nav-links">
+                <a href="#corpo">Corpo Humano</a>
+                <a href="#comidas">Comidas Bizarras</a>
+                <a href="#featured-curiosity">Curiosidade</a>
+            </div>
+            <div class="header-actions">
+                <input type="search" id="searchInput" placeholder="Busque uma palavra..."
+                    aria-label="Buscar curiosidades">
+                <button id="randomBtn" class="ghost-btn">Curiosidade aleatória</button>
+                <button id="themeToggle" class="ghost-btn" aria-label="Alternar tema">☀️</button>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <h1>Planeta Bizarro 👽</h1>
+            <p>As curiosidades mais nojentas e chocantes do corpo humano e do mundo!</p>
+            <div class="hero-highlight" id="featured-curiosity">
+                <span class="pill">Curiosidade do momento</span>
+                <p id="featuredText">Os corpos humanos carregam uma fauna microscópica invisível a olho nu.</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="category-section" id="corpo">
+            <div class="section-heading">
+                <h2>🦠 Bizarrices do Corpo Humano</h2>
+                <span class="section-badge">Categoria: Corpo Humano</span>
+            </div>
+            <div class="grid" id="corpo-grid"></div>
+        </section>
+
+        <section class="category-section" id="comidas">
+            <div class="section-heading">
+                <h2>🍽️ Comidas Bizarras de um Planeta Bizarro</h2>
+                <span class="section-badge">Categoria: Comidas</span>
+            </div>
+            <div class="grid" id="comidas-grid"></div>
+        </section>
+    </main>
+
+    <div class="modal hidden" id="detailModal" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Fechar detalhes">×</button>
+            <div class="modal-body">
+                <span class="modal-badge" id="modalBadge"></span>
+                <h3 id="modalTitle"></h3>
+                <p id="modalDescription"></p>
+                <div class="modal-meta">
+                    <span id="modalCategory"></span>
+                    <span id="modalLevel"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-block">
+                <h4>Planeta Bizarro</h4>
+                <p>Curiosidades estranhas, nojentas e fascinantes direto do corpo humano e da culinária bizarra.</p>
+            </div>
+            <div class="footer-block footer-links">
+                <a href="#privacy">Política de Privacidade</a>
+                <a href="https://wa.me/258842624612" target="_blank" rel="noopener">Contato / Envie sua Bizarrice via
+                    WhatsApp: +258 842624612</a>
+                <a href="#share">Compartilhe o Blog</a>
+                <a href="#terms">Termos de Uso</a>
+            </div>
+            <div class="footer-block footer-share" id="share">
+                <p>Compartilhe nas suas redes:</p>
+                <div class="social-links">
+                    <a href="https://twitter.com/intent/tweet?text=Descubra%20Planeta%20Bizarro%20-%20curiosidades%20estranhas%20e%20nojentas!&url=https://seusite.com"
+                        target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://seusite.com" target="_blank"
+                        rel="noopener">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-panels">
+            <div class="footer-panel" id="privacy">
+                <h5>Política de Privacidade</h5>
+                <p>Respeitamos sua privacidade e usamos apenas dados locais para salvar likes e preferências de tema.
+                </p>
+            </div>
+            <div class="footer-panel" id="terms">
+                <h5>Termos de Uso</h5>
+                <p>O conteúdo é para entretenimento e curiosidade. Não substitui orientação médica ou nutricional.</p>
+            </div>
+        </div>
+        <p class="footer-note">&copy; 2026 Planeta Bizarro. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

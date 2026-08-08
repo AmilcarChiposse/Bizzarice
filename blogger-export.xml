@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:app="http://www.w3.org/2007/app"
+      xmlns:thr="http://purl.org/syndication/thread/1.0"
+      xmlns:gd="http://schemas.google.com/g/2005"
+      xmlns:blogger="http://schemas.google.com/blogger/2008">
+  <id>tag:blogger.com,1999:blog-0000000000000000000</id>
+  <title>Planeta Bizarro</title>
+  <updated>2026-08-08T12:00:00.000Z</updated>
+  <author>
+    <name>Admin</name>
+    <email>admin@example.com</email>
+  </author>
+  <link rel="alternate" type="text/html" href="https://example.com/"/>
+  <link rel="self" type="application/atom+xml" href="https://example.com/blogger-export.xml"/>
+  <generator version="1.0">Custom Blogger Export</generator>
+  <app:control>
+    <app:draft>no</app:draft>
+  </app:control>
+
+  <entry>
+    <id>tag:blogger.com,1999:blog-0000000000000000000.post-101</id>
+    <published>2026-08-08T12:00:00.000Z</published>
+    <updated>2026-08-08T12:00:00.000Z</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Corpo Humano"/>
+    <title type="text">Artrópodes nos olhos</title>
+    <content type="html"><![CDATA[
+      <p>Existe uma grande chance de você ter artrópodes microscópicos vivendo ao redor dos seus cílios e a quantidade deles aumenta conforme a idade, embora sejam inofensivos.</p>
+      <p><strong>Nível:</strong> Baixo</p>
+      <p>Detalhe: Eles ficam em áreas delicadas do olho e, na maioria das vezes, não causam danos. A presença deles é tão comum que quase passa despercebida.</p>
+    ]]></content>
+    <author>
+      <name>Admin</name>
+      <email>admin@example.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <id>tag:blogger.com,1999:blog-0000000000000000000.post-102</id>
+    <published>2026-08-08T12:10:00.000Z</published>
+    <updated>2026-08-08T12:10:00.000Z</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Corpo Humano"/>
+    <title type="text">Cera de ouvido protetora</title>
+    <content type="html"><![CDATA[
+      <p>A cera é produzida naturalmente para proteger o sistema auditivo contra poeira e possui propriedades antibacterianas.</p>
+      <p><strong>Nível:</strong> Médio</p>
+      <p>Detalhe: É uma barreira natural que ajuda a reduzir a entrada de sujeira e micro-organismos. Por isso, remover tudo demais pode deixar o ouvido vulnerável.</p>
+    ]]></content>
+    <author>
+      <name>Admin</name>
+      <email>admin@example.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <id>tag:blogger.com,1999:blog-0000000000000000000.post-103</id>
+    <published>2026-08-08T12:20:00.000Z</published>
+    <updated>2026-08-08T12:20:00.000Z</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Corpo Humano"/>
+    <title type="text">Superlotação de bactérias</title>
+    <content type="html"><![CDATA[
+      <p>Cada centímetro quadrado da pele humana possui, em média, 32 milhões de bactérias e a boca abriga centenas de espécies diferentes.</p>
+      <p><strong>Nível:</strong> Alto</p>
+      <p>Detalhe: A nossa microbiota faz parte do sistema imunológico e ajuda a manter o corpo em equilíbrio, embora pareça assustador à primeira vista.</p>
+    ]]></content>
+    <author>
+      <name>Admin</name>
+      <email>admin@example.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <id>tag:blogger.com,1999:blog-0000000000000000000.post-104</id>
+    <published>2026-08-08T12:30:00.000Z</published>
+    <updated>2026-08-08T12:30:00.000Z</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Corpo Humano"/>
+    <title type="text">A origem do chulé</title>
+    <content type="html"><![CDATA[
+      <p>O mau cheiro não vem do suor em si, mas das bactérias que se alimentam do líquido e liberam gases fedorentos.</p>
+      <p><strong>Nível:</strong> Alto</p>
+      <p>Detalhe: O cheiro surge quando o suor entra em contato com a microbiota da pele, especialmente em áreas mais quentes e abafadas.</p>
+    ]]></content>
+    <author>
+      <name>Admin</name>
+      <email>admin@example.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <id>tag:blogger.com,1999:blog-0000000000000000000.post-105</id>
+    <published>2026-08-08T12:40:00.000Z</published>
+    <updated>2026-08-08T12:40:00.000Z</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Corpo Humano"/>
+    <title type="text">Troca de pele constante</title>
+    <content type="html"><![CDATA[
+      <p>O corpo humano perde centenas de milhares de partículas de pele por hora e isso se acumula ao longo da vida.</p>
+      <p><strong>Nível:</strong> Médio</p>
+      <p>Detalhe: Essa renovação constante é um processo natural de proteção e manutenção da pele, ainda que pareça um pouco grotesco.</p>
+    ]]></content>
+    <author>
+      <name>Admin</name>
+      <email>admin@example.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <id>tag:blogger.com,1999:blog-0000000000000000000.post-106</id>
+    <published>2026-08-08T12:50:00.000Z</published>
+    <updated>2026-08-08T12:50:00.000Z</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Corpo Humano"/>
+    <title type="text">Ereção pós-morte</title>
+    <content type="html"><![CDATA[
+      <p>O fenômeno conhecido como “anjo da luxúria” pode acontecer após a morte quando a gravidade altera o fluxo sanguíneo.</p>
+      <p><strong>Nível:</strong> Muito Alto</p>
+      <p>Detalhe: Esse efeito é raro, mas entra na lista das curiosidades mais estranhas porque faz o corpo parecer agir contra a própria morte.</p>
+    ]]></content>
+    <author>
+      <name>Admin</name>
+      <email>admin@example.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <id>tag:blogger.com,1999:blog-0000000000000000000.post-201</id>
+    <published>2026-08-08T13:00:00.000Z</published>
+    <updated>2026-08-08T13:00:00.000Z</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Comidas Bizarras"/>
+    <title type="text">O queijo vivo (Casu marzu)</title>
+    <content type="html"><![CDATA[
+      <p>Feito com leite de ovelha na Itália, leva larvas vivas de moscas que fermentam o alimento até quase a decomposição.</p>
+      <p><strong>Nível:</strong> Muito Alto</p>
+      <p>Detalhe: Esse prato precisa ser consumido enquanto as larvas ainda se movem, o que o torna um dos alimentos mais controversos do mundo.</p>
+    ]]></content>
+    <author>
+      <name>Admin</name>
+      <email>admin@example.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <id>tag:blogger.com,1999:blog-0000000000000000000.post-202</id>
+    <published>2026-08-08T13:10:00.000Z</published>
+    <updated>2026-08-08T13:10:00.000Z</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Comidas Bizarras"/>
+    <title type="text">Sapo energético</title>
+    <content type="html"><![CDATA[
+      <p>Uma receita peruana feita no liquidificador com caldo de feijão branco, babosa, mel e um sapo sem ossos e sem olhos.</p>
+      <p><strong>Nível:</strong> Alto</p>
+      <p>Detalhe: Essa iguaria foi criada com a intenção de despertar energia, mas a imagem de um sapo no liquidificador já basta para causar arrepios.</p>
+    ]]></content>
+    <author>
+      <name>Admin</name>
+      <email>admin@example.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <id>tag:blogger.com,1999:blog-0000000000000000000.post-203</id>
+    <published>2026-08-08T13:20:00.000Z</published>
+    <updated>2026-08-08T13:20:00.000Z</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Comidas Bizarras"/>
+    <title type="text">Peixe decomposto do Alasca</title>
+    <content type="html"><![CDATA[
+      <p>Alguns nativos enterram a cabeça do peixe dentro de um saco plástico até amaciar para consumi-la crua.</p>
+      <p><strong>Nível:</strong> Muito Alto</p>
+      <p>Detalhe: Essa preparação, feita como parte de uma tradição alimentar, é potencialmente perigosa e exige extremo cuidado.</p>
+    ]]></content>
+    <author>
+      <name>Admin</name>
+      <email>admin@example.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <id>tag:blogger.com,1999:blog-0000000000000000000.post-204</id>
+    <published>2026-08-08T13:30:00.000Z</published>
+    <updated>2026-08-08T13:30:00.000Z</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Comidas Bizarras"/>
+    <title type="text">O peixe baiacu alucinógeno</title>
+    <content type="html"><![CDATA[
+      <p>No Japão, o baiacu é servido após o cozinheiro retirar a bolsa de tetrodotoxina e espalhar uma pequena quantidade do veneno.</p>
+      <p><strong>Nível:</strong> Muito Alto</p>
+      <p>Detalhe: A experiência é tão arriscada que é tratada como uma mistura de gastronomia e perigo extremo.</p>
+    ]]></content>
+    <author>
+      <name>Admin</name>
+      <email>admin@example.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <id>tag:blogger.com,1999:blog-0000000000000000000.post-205</id>
+    <published>2026-08-08T13:40:00.000Z</published>
+    <updated>2026-08-08T13:40:00.000Z</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Comidas Bizarras"/>
+    <title type="text">O cachorro afrodisíaco</title>
+    <content type="html"><![CDATA[
+      <p>Na Coreia, consome-se sopa de cachorro com legumes sob a crença de que o prato aumenta a potência sexual.</p>
+      <p><strong>Nível:</strong> Alto</p>
+      <p>Detalhe: A tradição faz parte de uma prática cultural antiga, embora seja vista com estranhamento por boa parte do mundo.</p>
+    ]]></content>
+    <author>
+      <name>Admin</name>
+      <email>admin@example.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <id>tag:blogger.com,1999:blog-0000000000000000000.post-206</id>
+    <published>2026-08-08T13:50:00.000Z</published>
+    <updated>2026-08-08T13:50:00.000Z</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Comidas Bizarras"/>
+    <title type="text">Vinho de cobra</title>
+    <content type="html"><![CDATA[
+      <p>Fabricado no Vietnã com aguardente de arroz e uma cobra colocada ainda viva dentro da garrafa.</p>
+      <p><strong>Nível:</strong> Muito Alto</p>
+      <p>Detalhe: A ideia é que o álcool dilua o veneno da cobra, mas o resultado é um dos drinks mais extremos da gastronomia.</p>
+    ]]></content>
+    <author>
+      <name>Admin</name>
+      <email>admin@example.com</email>
+    </author>
+  </entry>
+</feed>
