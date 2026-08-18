@@ -321,6 +321,35 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Menu mobile
+    const menuToggle = document.getElementById('menuToggle');
+    const navWrapper = document.querySelector('.nav-wrapper');
+
+    if (menuToggle) {
+        menuToggle.addEventListener('click', () => {
+            navWrapper.classList.toggle('active');
+            const isActive = navWrapper.classList.contains('active');
+            menuToggle.setAttribute('aria-expanded', isActive);
+        });
+
+        // Fechar menu ao clicar em um link
+        const navLinks = document.querySelectorAll('.nav-links a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navWrapper.classList.remove('active');
+                menuToggle.setAttribute('aria-expanded', false);
+            });
+        });
+
+        // Fechar menu ao clicar fora
+        document.addEventListener('click', (event) => {
+            if (!event.target.closest('.navbar')) {
+                navWrapper.classList.remove('active');
+                menuToggle.setAttribute('aria-expanded', false);
+            }
+        });
+    }
+
     document.addEventListener('click', (event) => {
         const likeButton = event.target.closest('.like-btn');
         if (likeButton) {
