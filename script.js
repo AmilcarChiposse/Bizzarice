@@ -130,7 +130,9 @@ const dadosHistoria = criarColecaoEditorial('História Bizarra', [
     ['A profissão de despertador humano', 'Antes dos alarmes acessíveis, algumas pessoas trabalhavam a acordar vizinhos para o turno da manhã.', 'O serviço era feito com batidas nas janelas e tornou-se desnecessário com a popularização dos relógios.'],
     ['O julgamento de animais na Idade Média', 'Há registos de tribunais que atribuíram responsabilidade a animais por danos ou acidentes.', 'Os julgamentos reflectiam crenças jurídicas e religiosas muito diferentes das actuais.'],
     ['Cidades construídas sobre cidades', 'Muitos centros urbanos cresceram em camadas, escondendo ruas e edifícios de épocas anteriores.', 'A arqueologia usa essas camadas para compreender mudanças na vida quotidiana e no poder.'],
-    ['O calendário que saltou dias', 'A mudança entre calendários fez com que alguns países passassem directamente para uma nova data.', 'A alteração serviu para alinhar o calendário civil com o ano solar e provocou confusão na época.']
+    ['O calendário que saltou dias', 'A mudança entre calendários fez com que alguns países passassem directamente para uma nova data.', 'A alteração serviu para alinhar o calendário civil com o ano solar e provocou confusão na época.'],
+    ['O correio enviado por submarino', 'Em certos momentos da história, cartas e encomendas foram transportadas por rotas submarinas pouco comuns.', 'Estas soluções surgiram quando as rotas convencionais eram lentas, perigosas ou estavam interrompidas.'],
+    ['O mapa que enganou gerações', 'Mapas antigos misturavam observações reais com ilhas e territórios que nunca existiram.', 'A comparação com mapas posteriores mostra como rumores e erros de navegação influenciaram a geografia.']
 ]);
 
 const dadosAnimais = criarColecaoEditorial('Animais Bizarros', [
@@ -139,7 +141,9 @@ const dadosAnimais = criarColecaoEditorial('Animais Bizarros', [
     ['Animais que parecem extraterrestres', 'O peixe-diabrete, o tardígrado e o tubarão-frade têm formas que parecem saídas de ficção científica.', 'As suas características resultam de adaptações a ambientes e modos de vida específicos.'],
     ['Os animais mais estranhos dos oceanos', 'Nas profundezas vivem peixes luminosos, lulas transparentes e criaturas com mandíbulas incomuns.', 'A pressão, a escuridão e a escassez de alimento moldaram formas de vida muito diferentes.'],
     ['Animais que mudam de cor', 'Camaleões, polvos e alguns peixes alteram a aparência para comunicar, esconder-se ou regular a temperatura.', 'A mudança pode envolver pigmentos, células reflectoras ou alterações físicas na pele.'],
-    ['Animais que vivem em condições extremas', 'Tardígrados, micróbios e alguns insectos suportam frio, calor, secura ou radiação fora do comum.', 'A resistência varia conforme a fase da vida e as condições exactas do ambiente.']
+    ['Animais que vivem em condições extremas', 'Tardígrados, micróbios e alguns insectos suportam frio, calor, secura ou radiação fora do comum.', 'A resistência varia conforme a fase da vida e as condições exactas do ambiente.'],
+    ['O peixe que caminha fora de água', 'Alguns peixes conseguem usar as barbatanas para se deslocar em terra durante curtos períodos.', 'Essa capacidade ajuda a procurar alimento ou escapar de ambientes temporariamente desfavoráveis.'],
+    ['A ave que dorme enquanto voa', 'Algumas aves migratórias conseguem descansar partes do cérebro durante o voo.', 'O mecanismo permite longas viagens, embora o sono seja mais curto e fragmentado.']
 ]);
 
 const dadosCiencia = criarColecaoEditorial('Ciência Bizarra', [
@@ -148,7 +152,9 @@ const dadosCiencia = criarColecaoEditorial('Ciência Bizarra', [
     ['O que aconteceria se não houvesse Lua?', 'A Lua influencia as marés e ajuda a estabilizar a inclinação do eixo terrestre.', 'Sem ela, os ecossistemas costeiros e a estabilidade climática poderiam mudar ao longo do tempo.'],
     ['É possível chover animais?', 'Há relatos de peixes e pequenos animais que caíram do céu durante tempestades intensas.', 'Trombas de água e correntes ascendentes podem transportar animais, embora o fenómeno seja raro.'],
     ['Por que existem vulcões?', 'Vulcões surgem quando o calor interno da Terra permite que material fundido alcance a superfície.', 'Eles podem formar ilhas, renovar solos e alterar o clima quando libertam grandes quantidades de partículas.'],
-    ['Como surgem os relâmpagos?', 'Descargas eléctricas acontecem quando cargas acumuladas nas nuvens encontram um caminho para se equilibrar.', 'O trovão resulta da expansão rápida do ar aquecido pela descarga.']
+    ['Como surgem os relâmpagos?', 'Descargas eléctricas acontecem quando cargas acumuladas nas nuvens encontram um caminho para se equilibrar.', 'O trovão resulta da expansão rápida do ar aquecido pela descarga.'],
+    ['É possível viajar no tempo?', 'A física mostra que o tempo pode passar a ritmos diferentes conforme a velocidade e a gravidade.', 'Isto não significa que seja possível visitar livremente o passado, mas confirma efeitos relativísticos medidos.'],
+    ['Por que o gelo flutua?', 'A água expande-se ao congelar e o gelo fica menos denso do que a água líquida.', 'Essa propriedade ajuda a proteger a vida aquática durante períodos frios.']
 ]);
 
 const dadosLugares = criarColecaoEditorial('Lugares Bizarros', [
@@ -157,7 +163,9 @@ const dadosLugares = criarColecaoEditorial('Lugares Bizarros', [
     ['Ilhas com histórias misteriosas', 'Ilhas isoladas deram origem a relatos de naufrágios, espécies únicas e comunidades singulares.', 'A distância favorece lendas, mas também preserva pistas históricas importantes.'],
     ['Os lugares mais estranhos da Terra', 'Cavernas gigantes, lagos coloridos e formações rochosas desafiam a intuição.', 'A geologia e a química explicam muitas paisagens que parecem artificiais.'],
     ['Aldeias construídas em locais improváveis', 'Há comunidades erguidas em falésias, encostas e regiões sujeitas a condições difíceis.', 'A localização costuma estar ligada à defesa, à água, à agricultura ou ao comércio.'],
-    ['Lugares que parecem cenários de filmes', 'Paisagens naturais e cidades históricas podem parecer inventadas pela sua escala e aparência.', 'Fotografias impressionantes ganham ainda mais interesse quando acompanhadas pelo contexto do lugar.']
+    ['Lugares que parecem cenários de filmes', 'Paisagens naturais e cidades históricas podem parecer inventadas pela sua escala e aparência.', 'Fotografias impressionantes ganham ainda mais interesse quando acompanhadas pelo contexto do lugar.'],
+    ['A montanha que muda de cor', 'Algumas montanhas exibem cores intensas devido a minerais, erosão e alterações na luz.', 'A geologia do local explica o espectáculo sem precisar de fenómenos sobrenaturais.'],
+    ['O lago que parece uma piscina', 'Há lagos com águas tão transparentes ou coloridas que parecem cenários artificiais.', 'A profundidade, os minerais e os organismos presentes determinam a aparência da água.']
 ]);
 
 const dadosMisterios = criarColecaoEditorial('Mistérios e Fenómenos', [
@@ -166,7 +174,9 @@ const dadosMisterios = criarColecaoEditorial('Mistérios e Fenómenos', [
     ['O desaparecimento de uma expedição', 'Algumas expedições ficaram famosas por desaparecerem em regiões difíceis de alcançar.', 'As hipóteses devem ser comparadas com mapas, clima, equipamento e provas disponíveis.'],
     ['Pedras que parecem mover-se sozinhas', 'Em certos lagos secos, pedras deixam longos rastos no solo sem que alguém as empurre.', 'Gelo fino, vento e água podem combinar-se para explicar o movimento observado.'],
     ['O mistério das construções antigas', 'Monumentos antigos continuam a gerar perguntas sobre técnicas, organização e finalidade.', 'A arqueologia procura respostas em ferramentas, materiais, inscrições e contexto cultural.'],
-    ['Lendas que nasceram de factos reais', 'Algumas histórias populares preservam uma memória distorcida de eventos, lugares ou pessoas reais.', 'Distinguir tradição oral de evidência histórica é essencial para compreender a origem da narrativa.']
+    ['Lendas que nasceram de factos reais', 'Algumas histórias populares preservam uma memória distorcida de eventos, lugares ou pessoas reais.', 'Distinguir tradição oral de evidência histórica é essencial para compreender a origem da narrativa.'],
+    ['O navio encontrado sem tripulação', 'Navios abandonados alimentaram teorias sobre desaparecimentos e acidentes no mar.', 'Cada caso precisa ser analisado com registos de navegação, clima e evidências físicas.'],
+    ['O enigma dos sons repetidos', 'Sons registados em cavernas, montanhas ou oceanos podem parecer mensagens quando não têm origem clara.', 'A acústica do ambiente e equipamentos de medição ajudam a testar explicações possíveis.']
 ]);
 
 const dadosSabia = criarColecaoEditorial('Você Sabia?', [
@@ -367,9 +377,9 @@ function renderizarTudo() {
     renderizarCards(dadosHistoria, 'historia-grid');
     renderizarCards(dadosAnimais, 'animais-grid');
     renderizarCards(dadosSabia, 'sabia-grid');
-    renderizarCards([...dadosCorpo, ...dadosCorpoEditorial], 'corpo-grid');
+    renderizarCards([...dadosCorpo, ...dadosCorpoEditorial].slice(0, 8), 'corpo-grid');
     renderizarCards(dadosCiencia, 'ciencia-grid');
-    renderizarCards([...dadosComidas, ...dadosComidasEditorial], 'comidas-grid');
+    renderizarCards([...dadosComidas, ...dadosComidasEditorial].slice(0, 8), 'comidas-grid');
     renderizarCards(dadosLugares, 'lugares-grid');
     renderizarCards(dadosMisterios, 'misterios-grid');
 }
