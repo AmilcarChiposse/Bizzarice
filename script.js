@@ -112,7 +112,92 @@ const dadosComidas = [
     }
 ];
 
-const allItems = [...dadosCorpo, ...dadosComidas];
+function criarColecaoEditorial(categoria, itens) {
+    return itens.map((item, index) => ({
+        id: `${categoria.toLowerCase().replace(/[^a-z]+/g, '-')}-${index + 1}`,
+        titulo: item[0],
+        descricao: item[1],
+        detalhe: item[2] || item[1],
+        badge: `Categoria: ${categoria}`,
+        nivel: 'Leitura informativa',
+        categoria
+    }));
+}
+
+const dadosHistoria = criarColecaoEditorial('História Bizarra', [
+    ['A guerra que durou menos de uma hora', 'Um conflito histórico terminou tão depressa que ainda surpreende quem conhece a sua cronologia.', 'A duração exacta e o contexto político ajudam a separar o facto documentado das versões simplificadas.'],
+    ['O rei que declarou guerra a animais', 'Em diferentes épocas, animais chegaram a ser tratados como inimigos em decisões oficiais.', 'Estes episódios mostram como leis, crenças e medo podiam influenciar sociedades antigas.'],
+    ['A profissão de despertador humano', 'Antes dos alarmes acessíveis, algumas pessoas trabalhavam a acordar vizinhos para o turno da manhã.', 'O serviço era feito com batidas nas janelas e tornou-se desnecessário com a popularização dos relógios.'],
+    ['O julgamento de animais na Idade Média', 'Há registos de tribunais que atribuíram responsabilidade a animais por danos ou acidentes.', 'Os julgamentos reflectiam crenças jurídicas e religiosas muito diferentes das actuais.'],
+    ['Cidades construídas sobre cidades', 'Muitos centros urbanos cresceram em camadas, escondendo ruas e edifícios de épocas anteriores.', 'A arqueologia usa essas camadas para compreender mudanças na vida quotidiana e no poder.'],
+    ['O calendário que saltou dias', 'A mudança entre calendários fez com que alguns países passassem directamente para uma nova data.', 'A alteração serviu para alinhar o calendário civil com o ano solar e provocou confusão na época.']
+]);
+
+const dadosAnimais = criarColecaoEditorial('Animais Bizarros', [
+    ['Animais que sobrevivem quase sem água', 'Algumas espécies obtêm a humidade necessária dos alimentos e reduzem drasticamente a perda de água.', 'O rato-canguru é um exemplo conhecido de adaptação a ambientes muito secos.'],
+    ['Criaturas que regeneram partes do corpo', 'Axolotes e algumas estrelas-do-mar conseguem reconstruir estruturas perdidas.', 'A regeneração depende da espécie e não significa que todos os tecidos se recomponham da mesma forma.'],
+    ['Animais que parecem extraterrestres', 'O peixe-diabrete, o tardígrado e o tubarão-frade têm formas que parecem saídas de ficção científica.', 'As suas características resultam de adaptações a ambientes e modos de vida específicos.'],
+    ['Os animais mais estranhos dos oceanos', 'Nas profundezas vivem peixes luminosos, lulas transparentes e criaturas com mandíbulas incomuns.', 'A pressão, a escuridão e a escassez de alimento moldaram formas de vida muito diferentes.'],
+    ['Animais que mudam de cor', 'Camaleões, polvos e alguns peixes alteram a aparência para comunicar, esconder-se ou regular a temperatura.', 'A mudança pode envolver pigmentos, células reflectoras ou alterações físicas na pele.'],
+    ['Animais que vivem em condições extremas', 'Tardígrados, micróbios e alguns insectos suportam frio, calor, secura ou radiação fora do comum.', 'A resistência varia conforme a fase da vida e as condições exactas do ambiente.']
+]);
+
+const dadosCiencia = criarColecaoEditorial('Ciência Bizarra', [
+    ['O que aconteceria se a Terra parasse de girar?', 'A rotação influencia os ventos, os oceanos e a duração dos dias.', 'Uma paragem súbita teria efeitos devastadores; uma desaceleração gradual produziria mudanças muito diferentes.'],
+    ['Por que o céu é azul?', 'A luz solar espalha-se na atmosfera e as frequências azuis são dispersas com maior intensidade.', 'Ao amanhecer e ao entardecer, o percurso da luz muda e permite que tons vermelhos dominem o céu.'],
+    ['O que aconteceria se não houvesse Lua?', 'A Lua influencia as marés e ajuda a estabilizar a inclinação do eixo terrestre.', 'Sem ela, os ecossistemas costeiros e a estabilidade climática poderiam mudar ao longo do tempo.'],
+    ['É possível chover animais?', 'Há relatos de peixes e pequenos animais que caíram do céu durante tempestades intensas.', 'Trombas de água e correntes ascendentes podem transportar animais, embora o fenómeno seja raro.'],
+    ['Por que existem vulcões?', 'Vulcões surgem quando o calor interno da Terra permite que material fundido alcance a superfície.', 'Eles podem formar ilhas, renovar solos e alterar o clima quando libertam grandes quantidades de partículas.'],
+    ['Como surgem os relâmpagos?', 'Descargas eléctricas acontecem quando cargas acumuladas nas nuvens encontram um caminho para se equilibrar.', 'O trovão resulta da expansão rápida do ar aquecido pela descarga.']
+]);
+
+const dadosLugares = criarColecaoEditorial('Lugares Bizarros', [
+    ['As cidades abandonadas mais impressionantes', 'Algumas cidades ficaram vazias por guerras, acidentes ambientais, crises económicas ou mudanças de actividade.', 'As ruínas ajudam a contar a história das pessoas que viveram nesses locais.'],
+    ['Lugares onde quase ninguém vive', 'Desertos, ilhas remotas e regiões polares têm populações muito reduzidas.', 'O clima e a distância tornam a vida quotidiana dependente de preparação e infra-estruturas especiais.'],
+    ['Ilhas com histórias misteriosas', 'Ilhas isoladas deram origem a relatos de naufrágios, espécies únicas e comunidades singulares.', 'A distância favorece lendas, mas também preserva pistas históricas importantes.'],
+    ['Os lugares mais estranhos da Terra', 'Cavernas gigantes, lagos coloridos e formações rochosas desafiam a intuição.', 'A geologia e a química explicam muitas paisagens que parecem artificiais.'],
+    ['Aldeias construídas em locais improváveis', 'Há comunidades erguidas em falésias, encostas e regiões sujeitas a condições difíceis.', 'A localização costuma estar ligada à defesa, à água, à agricultura ou ao comércio.'],
+    ['Lugares que parecem cenários de filmes', 'Paisagens naturais e cidades históricas podem parecer inventadas pela sua escala e aparência.', 'Fotografias impressionantes ganham ainda mais interesse quando acompanhadas pelo contexto do lugar.']
+]);
+
+const dadosMisterios = criarColecaoEditorial('Mistérios e Fenómenos', [
+    ['Luzes estranhas no céu', 'Avistamentos luminosos podem ter origem em fenómenos atmosféricos, aeronaves ou interpretações equivocadas.', 'Investigar exige registos, localização, horário e comparação com explicações conhecidas.'],
+    ['O som misterioso do oceano', 'Sons submarinos de grande alcance já foram registados por sensores científicos.', 'Muitos foram explicados por gelo, actividade vulcânica ou animais, enquanto outros permanecem em estudo.'],
+    ['O desaparecimento de uma expedição', 'Algumas expedições ficaram famosas por desaparecerem em regiões difíceis de alcançar.', 'As hipóteses devem ser comparadas com mapas, clima, equipamento e provas disponíveis.'],
+    ['Pedras que parecem mover-se sozinhas', 'Em certos lagos secos, pedras deixam longos rastos no solo sem que alguém as empurre.', 'Gelo fino, vento e água podem combinar-se para explicar o movimento observado.'],
+    ['O mistério das construções antigas', 'Monumentos antigos continuam a gerar perguntas sobre técnicas, organização e finalidade.', 'A arqueologia procura respostas em ferramentas, materiais, inscrições e contexto cultural.'],
+    ['Lendas que nasceram de factos reais', 'Algumas histórias populares preservam uma memória distorcida de eventos, lugares ou pessoas reais.', 'Distinguir tradição oral de evidência histórica é essencial para compreender a origem da narrativa.']
+]);
+
+const dadosSabia = criarColecaoEditorial('Você Sabia?', [
+    ['Um dia em Vénus é mais longo que o seu ano', 'Vénus gira tão lentamente que completa uma rotação em mais tempo do que leva a orbitar o Sol.', 'É uma curiosidade astronómica que mostra como duração do dia e duração do ano são conceitos diferentes.'],
+    ['Os polvos têm três corações', 'Dois corações enviam sangue para as brânquias e um envia sangue para o resto do corpo.', 'O coração principal deixa de bater durante a natação, razão pela qual os polvos preferem deslocar-se no fundo.'],
+    ['A memória não é uma gravação perfeita', 'Recordar envolve reconstruir informações a partir de pistas e experiências.', 'Por isso, duas pessoas podem lembrar-se do mesmo acontecimento de formas diferentes.'],
+    ['O cheiro da chuva tem um nome', 'Petrichor é o termo usado para o aroma associado à chuva depois de um período seco.', 'O odor vem da combinação de óleos vegetais, solo e compostos libertados no ar.'],
+    ['O mel pode durar muito tempo', 'A baixa humidade e a acidez dificultam o crescimento de muitos microrganismos no mel.', 'A conservação depende de estar bem fechado e de não ser contaminado por água.'],
+    ['As árvores comunicam de várias formas', 'Raízes, fungos e compostos químicos ajudam plantas a trocar sinais no ambiente.', 'Esta comunicação não é uma conversa humana, mas uma rede de respostas biológicas observáveis.']
+]);
+
+const dadosCorpoEditorial = criarColecaoEditorial('Corpo Humano', [
+    ['Por que temos soluços?', 'O soluço é uma contracção involuntária do diafragma seguida de um som característico.', 'Comer depressa, mudanças de temperatura e irritação do diafragma podem desencadear episódios passageiros.'],
+    ['Por que sonhamos?', 'Os sonhos aparecem com frequência durante o sono REM, quando a actividade cerebral se aproxima da vigília.', 'Ainda existem diferentes hipóteses sobre a função dos sonhos, incluindo memória e processamento emocional.'],
+    ['Por que temos arrepios?', 'Arrepios são uma resposta involuntária ligada ao frio, ao medo ou a emoções intensas.', 'A contracção de pequenos músculos junto aos pelos é um vestígio de respostas mais úteis em animais com mais pelo.'],
+    ['Por que algumas pessoas espirram ao olhar para o Sol?', 'O reflexo fótico do espirro faz algumas pessoas espirrar quando olham para uma luz intensa.', 'A causa exacta ainda é estudada, mas parece envolver sinais cruzados entre nervos próximos.'],
+    ['O que acontece quando dormimos?', 'Durante o sono, o corpo alterna fases que ajudam a recuperar energia e a organizar memórias.', 'Temperatura, hormonas e actividade cerebral mudam ao longo da noite.'],
+    ['Por que sentimos cócegas?', 'Cócegas envolvem receptores da pele e uma resposta cerebral influenciada por surpresa e contexto.', 'É difícil fazer cócegas a si próprio porque o cérebro prevê o movimento e reduz a surpresa.'],
+    ['Como funciona a memória?', 'Memória envolve codificar, guardar e recuperar informação, e não funciona como um arquivo imutável.', 'A atenção, o sono e a repetição influenciam a capacidade de aprender e recordar.']
+]);
+
+const dadosComidasEditorial = criarColecaoEditorial('Comidas Bizarras', [
+    ['As comidas mais estranhas do mundo', 'Ingredientes e preparações considerados incomuns mostram como a alimentação varia entre culturas.', 'O que parece estranho depende de hábitos, disponibilidade local e história familiar.'],
+    ['Alimentos que parecem perigosos', 'Alguns alimentos exigem preparação rigorosa porque contêm toxinas ou podem estragar rapidamente.', 'Conhecer a origem e o modo correcto de preparação é mais importante do que o aspecto do prato.'],
+    ['Por que algumas culturas comem insectos?', 'Insectos podem ser uma fonte de proteína e fazem parte de tradições alimentares em várias regiões.', 'A escolha está ligada ao ambiente, à disponibilidade de alimentos e aos costumes locais.'],
+    ['Os queijos mais incomuns do mundo', 'Técnicas de fermentação e maturação criaram queijos com aromas, texturas e aparências inesperadas.', 'Cada tradição usa microrganismos e métodos próprios para transformar o leite.'],
+    ['Frutas que parecem não existir', 'Há frutas com formas, cores e sabores tão diferentes que parecem inventadas.', 'A diversidade resulta de adaptação natural, selecção agrícola e ambientes específicos.'],
+    ['Pratos tradicionais que surpreendem estrangeiros', 'Receitas familiares podem causar estranheza a quem não conhece a sua história.', 'Compreender o contexto cultural ajuda a olhar para a comida para além da primeira impressão.']
+]);
+
+const allItems = [...dadosCorpo, ...dadosComidas, ...dadosHistoria, ...dadosAnimais, ...dadosCiencia, ...dadosLugares, ...dadosMisterios, ...dadosSabia, ...dadosCorpoEditorial, ...dadosComidasEditorial];
 let likes = JSON.parse(localStorage.getItem('planeta-bizarro-likes') || '{}');
 let currentTheme = localStorage.getItem('planeta-theme') || 'dark';
 
@@ -278,8 +363,15 @@ function atualizarLikes(id) {
 }
 
 function renderizarTudo() {
-    renderizarCards(dadosCorpo, 'corpo-grid');
-    renderizarCards(dadosComidas, 'comidas-grid');
+    renderizarCards(allItems.slice(0, 6), 'destaques-grid');
+    renderizarCards(dadosHistoria, 'historia-grid');
+    renderizarCards(dadosAnimais, 'animais-grid');
+    renderizarCards(dadosSabia, 'sabia-grid');
+    renderizarCards([...dadosCorpo, ...dadosCorpoEditorial], 'corpo-grid');
+    renderizarCards(dadosCiencia, 'ciencia-grid');
+    renderizarCards([...dadosComidas, ...dadosComidasEditorial], 'comidas-grid');
+    renderizarCards(dadosLugares, 'lugares-grid');
+    renderizarCards(dadosMisterios, 'misterios-grid');
 }
 
 document.addEventListener('DOMContentLoaded', () => {

@@ -24,9 +24,10 @@
             <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
             <div class="nav-wrapper">
                 <div class="nav-links">
-                    <a href="#corpo">Corpo Humano</a>
-                    <a href="#comidas">Comidas Bizarras</a>
-                    <a href="#featured-curiosity">Curiosidade</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#destaques">Destaques</a>
+                    <a href="#historia">Categorias</a>
+                    <a href="#como-produzimos">Conteúdo</a>
                 </div>
                 <div class="header-actions">
                     <input type="search" id="searchInput" placeholder="Busque uma palavra..."
@@ -38,8 +39,18 @@
         </nav>
 
         <div class="hero">
-            <h1>Planeta Bizarro 👽</h1>
-            <p>As curiosidades mais nojentas e chocantes do corpo humano e do mundo!</p>
+            <h1>Planeta Bizarro</h1>
+            <p>Curiosidades estranhas, surpreendentes e fascinantes explicadas de forma simples.</p>
+            <div class="hero-intro">
+                <h2>Bem-vindo ao Planeta Bizarro</h2>
+                <p>O Planeta Bizarro é um espaço dedicado às curiosidades mais estranhas, surpreendentes e fascinantes
+                    do mundo. Aqui exploramos histórias, fenómenos, costumes, animais, ciência, gastronomia, lugares e
+                    acontecimentos que parecem inventados, mas que fazem parte da realidade.</p>
+                <p>O nosso objectivo é transformar informação curiosa em conhecimento simples, interessante e fácil de
+                    descobrir. Cada artigo procura apresentar informações contextualizadas e explicar não apenas o que
+                    aconteceu, mas também por que determinado fenómeno, tradição ou acontecimento é tão peculiar.</p>
+                <p>Prepare-se para descobrir coisas que provavelmente nunca imaginou que existissem.</p>
+            </div>
             <div class="hero-highlight" id="featured-curiosity">
                 <span class="pill">Curiosidade do momento</span>
                 <p id="featuredText">Os corpos humanos carregam uma fauna microscópica invisível a olho nu.</p>
@@ -50,12 +61,75 @@
     <!-- Espaço reservado para anúncio (banner topo) -->
 
     <main class="container">
+        <section class="editorial-section" id="destaques">
+            <div class="section-heading">
+                <div>
+                    <span class="section-kicker">Para começar</span>
+                    <h2>Artigos em destaque</h2>
+                </div>
+                <p class="section-intro">Seleccionámos algumas das histórias e curiosidades mais surpreendentes do
+                    Planeta Bizarro. Explore os artigos e descubra acontecimentos, tradições, fenómenos e factos que
+                    desafiam aquilo que normalmente consideramos comum.</p>
+            </div>
+            <div class="grid" id="destaques-grid"></div>
+        </section>
+
+        <section class="editorial-section category-intro" id="historia">
+            <div class="section-heading">
+                <div><span class="section-kicker">Histórias que merecem contexto</span>
+                    <h2>História Bizarra</h2>
+                </div>
+            </div>
+            <p>A história está cheia de acontecimentos inesperados, personagens excêntricas, tradições esquecidas e
+                episódios que parecem pertencer a um filme. Nesta secção, exploramos acontecimentos históricos pouco
+                conhecidos e histórias curiosas que ajudam a compreender diferentes épocas e sociedades.</p>
+            <div class="grid" id="historia-grid"></div>
+        </section>
+
+        <section class="editorial-section category-intro" id="animais">
+            <div class="section-heading">
+                <div><span class="section-kicker">Natureza extraordinária</span>
+                    <h2>Animais Bizarros</h2>
+                </div>
+            </div>
+            <p>A natureza é capaz de produzir criaturas que parecem saídas da imaginação. Nesta categoria, descobrimos
+                animais com características extraordinárias, comportamentos incomuns e adaptações surpreendentes que
+                demonstram a enorme diversidade da vida no planeta.</p>
+            <div class="grid" id="animais-grid"></div>
+        </section>
+
+        <section class="editorial-section category-intro" id="voce-sabia">
+            <div class="section-heading">
+                <div><span class="section-kicker">Uma descoberta rápida</span>
+                    <h2>Você Sabia?</h2>
+                </div>
+            </div>
+            <p>Pequenas descobertas podem revelar grandes histórias. Nesta secção reunimos curiosidades rápidas sobre
+                ciência, história, natureza, cultura, tecnologia e comportamento humano.</p>
+            <div class="grid" id="sabia-grid"></div>
+        </section>
         <section class="category-section" id="corpo">
             <div class="section-heading">
                 <h2>🦠 Bizarrices do Corpo Humano</h2>
                 <span class="section-badge">Categoria: Corpo Humano</span>
             </div>
+            <p class="category-description">O corpo humano é uma das estruturas mais complexas e surpreendentes da
+                natureza. Todos os dias acontecem no nosso organismo milhares de processos que normalmente passam
+                despercebidos. Nesta categoria, apresentamos curiosidades sobre o cérebro, sono, sentidos, pele, sangue,
+                músculos, memória e outras características fascinantes do organismo humano.</p>
             <div class="grid" id="corpo-grid"></div>
+        </section>
+
+        <section class="editorial-section category-intro" id="ciencia">
+            <div class="section-heading">
+                <div><span class="section-kicker">Factos explicados</span>
+                    <h2>Ciência Bizarra</h2>
+                </div>
+            </div>
+            <p>A ciência explica muitos dos fenómenos que parecem impossíveis ou estranhos. Nesta secção, exploramos
+                descobertas científicas, fenómenos naturais e experiências que mostram como o mundo pode ser muito mais
+                surpreendente do que imaginamos.</p>
+            <div class="grid" id="ciencia-grid"></div>
         </section>
 
         <!-- Espaço reservado para anúncio (meio da página) -->
@@ -74,7 +148,61 @@
                 <h2>🍽️ Comidas Bizarras de um Planeta Bizarro</h2>
                 <span class="section-badge">Categoria: Comidas</span>
             </div>
+            <p class="category-description">O que é considerado normal à mesa numa parte do mundo pode parecer
+                completamente estranho noutra. Diferentes povos desenvolveram alimentos, receitas e formas de preparação
+                influenciadas pela sua história, cultura, religião e ambiente. Nesta categoria, viajamos pelo mundo para
+                conhecer alimentos incomuns, pratos tradicionais e hábitos alimentares que despertam curiosidade.</p>
             <div class="grid" id="comidas-grid"></div>
+        </section>
+
+        <section class="editorial-section category-intro" id="lugares">
+            <div class="section-heading">
+                <div><span class="section-kicker">Viagens pelo insólito</span>
+                    <h2>Lugares Bizarros</h2>
+                </div>
+            </div>
+            <p>Existem lugares no mundo que parecem pertencer a outro planeta. Desde cidades abandonadas até paisagens
+                naturais extraordinárias, estes locais escondem histórias, fenómenos e características que despertam a
+                curiosidade de milhões de pessoas.</p>
+            <div class="grid" id="lugares-grid"></div>
+        </section>
+
+        <section class="editorial-section category-intro" id="misterios">
+            <div class="section-heading">
+                <div><span class="section-kicker">Factos, lendas e teorias</span>
+                    <h2>Mistérios e Fenómenos</h2>
+                </div>
+            </div>
+            <p>Alguns acontecimentos continuam a despertar perguntas mesmo depois de décadas ou séculos. Aqui
+                investigamos fenómenos incomuns, acontecimentos misteriosos e histórias que despertaram a curiosidade de
+                investigadores e do público. Separamos factos comprovados de lendas ou teorias.</p>
+            <div class="grid" id="misterios-grid"></div>
+        </section>
+
+        <section class="editorial-section body-copy" id="sobre">
+            <span class="section-kicker">Conheça o projecto</span>
+            <h2>Sobre o Planeta Bizarro</h2>
+            <p>O Planeta Bizarro nasceu com a ideia de reunir num único espaço histórias e curiosidades capazes de
+                despertar a curiosidade das pessoas.</p>
+            <p>O mundo está cheio de acontecimentos extraordinários. Existem costumes diferentes entre os povos, animais
+                com capacidades surpreendentes, fenómenos naturais pouco conhecidos, acontecimentos históricos
+                improváveis e descobertas científicas fascinantes.</p>
+            <p>O nosso trabalho é pesquisar, organizar e apresentar essas informações de forma clara e acessível.
+                Procuramos contextualizar os temas apresentados e, sempre que possível, indicar fontes para que os
+                leitores possam aprofundar os seus conhecimentos.</p>
+            <p><strong>Curiosidade é o primeiro passo para aprender.</strong></p>
+        </section>
+
+        <section class="editorial-section body-copy" id="como-produzimos">
+            <span class="section-kicker">Transparência editorial</span>
+            <h2>Como produzimos os nossos conteúdos</h2>
+            <p>Os conteúdos do Planeta Bizarro são desenvolvidos com base em pesquisa e consulta de diferentes fontes de
+                informação. Procuramos verificar os dados antes da publicação e distinguir informações comprovadas de
+                lendas, rumores ou interpretações.</p>
+            <p>Quando um tema apresenta diferentes versões, procuramos apresentar o contexto necessário para que o
+                leitor possa compreender as diferenças.</p>
+            <p>O nosso compromisso é oferecer conteúdos interessantes, responsáveis e úteis para quem deseja aprender
+                algo novo.</p>
         </section>
     </main>
 
